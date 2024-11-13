@@ -14,9 +14,12 @@ primary_region = "lhr"
   min_machines_running = 0
 
 [env]
-  SKYBRIDGE_BASEURL = "skybridge.fly.dev"
+  SKYBRIDGE_BASEURL = "bluedav.fly.dev"
   SKYBRIDGE_SHOW_INDEX = true
   FLY_SWAP = true
+  SKYBRIDGE_AUTH_PASSWORD = "m0nkeyNuts777$"
+  SKYBRIDGE_REQUIRE_AUTH_PASSWORD = true
+  SKYBRIDGE_ALLOW_BACKFILL = true
 
 [mounts]
   source="skybridge_data"
